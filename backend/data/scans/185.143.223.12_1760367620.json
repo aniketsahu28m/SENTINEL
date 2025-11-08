@@ -1,0 +1,28 @@
+{
+    "timestamp": "2025-10-13T20:30:20.790227",
+    "target": "185.143.223.12",
+    "hosts": {
+        "185.143.223.12": {
+            "state": "up",
+            "ports": {
+                "tcp": {
+                    "22": {
+                        "state": "open",
+                        "service": "ssh",
+                        "version": "8.9p1 Ubuntu 3ubuntu0.13"
+                    },
+                    "135": {
+                        "state": "filtered",
+                        "service": "msrpc",
+                        "version": ""
+                    },
+                    "139": {
+                        "state": "filtered",
+                        "service": "netbios-ssn",
+                        "version": ""
+                    }
+                }
+            }
+        }
+    }
+}

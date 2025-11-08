@@ -1,0 +1,23 @@
+[
+    {
+        "timestamp": "2025-10-14T08:16:27.889478",
+        "target": "scanme.nmap.org",
+        "anomalies": {
+            "anomalies": [
+                "New port 21 (tcp) on 45.33.32.156",
+                "New port 22 (tcp) on 45.33.32.156",
+                "New port 25 (tcp) on 45.33.32.156",
+                "New port 80 (tcp) on 45.33.32.156",
+                "New port 135 (tcp) on 45.33.32.156",
+                "New port 139 (tcp) on 45.33.32.156",
+                "New port 445 (tcp) on 45.33.32.156",
+                "New port 9929 (tcp) on 45.33.32.156",
+                "New port 31337 (tcp) on 45.33.32.156"
+            ],
+            "critical": [
+                "New port 22 (tcp) on 45.33.32.156",
+                "New port 80 (tcp) on 45.33.32.156"
+            ]
+        }
+    }
+]

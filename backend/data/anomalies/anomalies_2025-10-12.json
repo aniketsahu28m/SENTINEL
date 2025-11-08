@@ -1,0 +1,90 @@
+[
+    {
+        "timestamp": "2025-10-12T00:32:18.083348",
+        "target": "127.0.0.1",
+        "anomalies": {
+            "anomalies": [
+                "New protocol tcp on 127.0.0.1"
+            ],
+            "critical": []
+        }
+    },
+    {
+        "timestamp": "2025-10-12T00:32:29.219145",
+        "target": "127.0.0.1",
+        "anomalies": {
+            "anomalies": [
+                "New port 5000 (tcp) on 127.0.0.1"
+            ],
+            "critical": []
+        }
+    },
+    {
+        "timestamp": "2025-10-12T00:35:57.359327",
+        "target": "127.0.0.1",
+        "anomalies": {
+            "anomalies": [
+                "New port 5000 (tcp) on 127.0.0.1"
+            ],
+            "critical": []
+        }
+    },
+    {
+        "timestamp": "2025-10-12T00:55:49.252285",
+        "target": "127.0.0.1",
+        "anomalies": {
+            "anomalies": [],
+            "critical": []
+        }
+    },
+    {
+        "timestamp": "2025-10-12T00:58:37.349343",
+        "target": "127.0.0.1",
+        "anomalies": {
+            "anomalies": [
+                "New protocol tcp on 127.0.0.1"
+            ],
+            "critical": []
+        }
+    },
+    {
+        "timestamp": "2025-10-12T00:58:49.531907",
+        "target": "127.0.0.1",
+        "anomalies": {
+            "anomalies": [
+                "New port 5000 (tcp) on 127.0.0.1"
+            ],
+            "critical": []
+        }
+    },
+    {
+        "timestamp": "2025-10-12T01:03:41.090143",
+        "target": "127.0.0.1",
+        "anomalies": {
+            "anomalies": [
+                "New port 5000 (tcp) on 127.0.0.1"
+            ],
+            "critical": []
+        }
+    },
+    {
+        "timestamp": "2025-10-12T01:11:45.303366",
+        "target": "127.0.0.1",
+        "anomalies": {
+            "anomalies": [
+                "New port 5000 (tcp) on 127.0.0.1"
+            ],
+            "critical": []
+        }
+    },
+    {
+        "timestamp": "2025-10-12T08:07:38.225965",
+        "target": "127.0.0.1",
+        "anomalies": {
+            "anomalies": [
+                "New port 5000 (tcp) on 127.0.0.1"
+            ],
+            "critical": []
+        }
+    }
+]

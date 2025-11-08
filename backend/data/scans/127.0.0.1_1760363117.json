@@ -1,0 +1,18 @@
+{
+    "timestamp": "2025-10-13T19:15:17.327954",
+    "target": "127.0.0.1",
+    "hosts": {
+        "127.0.0.1": {
+            "state": "up",
+            "ports": {
+                "tcp": {
+                    "5000": {
+                        "state": "open",
+                        "service": "http",
+                        "version": "3.1.3"
+                    }
+                }
+            }
+        }
+    }
+}

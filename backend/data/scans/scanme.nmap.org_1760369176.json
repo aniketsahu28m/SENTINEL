@@ -1,0 +1,38 @@
+{
+    "timestamp": "2025-10-13T20:56:16.625345",
+    "target": "scanme.nmap.org",
+    "hosts": {
+        "45.33.32.156": {
+            "state": "up",
+            "ports": {
+                "tcp": {
+                    "22": {
+                        "state": "open",
+                        "service": "ssh",
+                        "version": "6.6.1p1 Ubuntu 2ubuntu2.13"
+                    },
+                    "80": {
+                        "state": "open",
+                        "service": "http",
+                        "version": "2.4.7"
+                    },
+                    "139": {
+                        "state": "filtered",
+                        "service": "netbios-ssn",
+                        "version": ""
+                    },
+                    "9929": {
+                        "state": "open",
+                        "service": "nping-echo",
+                        "version": ""
+                    },
+                    "31337": {
+                        "state": "open",
+                        "service": "tcpwrapped",
+                        "version": ""
+                    }
+                }
+            }
+        }
+    }
+}

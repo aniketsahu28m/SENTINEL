@@ -1,0 +1,65 @@
+[
+    {
+        "timestamp": "2025-10-13T18:40:26.205625",
+        "target": "127.0.0.1",
+        "anomalies": {
+            "anomalies": [
+                "New port 5000 (tcp) on 127.0.0.1"
+            ],
+            "critical": []
+        }
+    },
+    {
+        "timestamp": "2025-10-13T19:15:17.327954",
+        "target": "127.0.0.1",
+        "anomalies": {
+            "anomalies": [
+                "New port 5000 (tcp) on 127.0.0.1"
+            ],
+            "critical": []
+        }
+    },
+    {
+        "timestamp": "2025-10-13T20:56:16.625345",
+        "target": "scanme.nmap.org",
+        "anomalies": {
+            "anomalies": [],
+            "critical": []
+        }
+    },
+    {
+        "timestamp": "2025-10-13T21:10:48.319126",
+        "target": "scanme.nmap.org",
+        "anomalies": {
+            "anomalies": [
+                "New port 22 (tcp) on 45.33.32.156",
+                "New port 80 (tcp) on 45.33.32.156",
+                "New port 9929 (tcp) on 45.33.32.156",
+                "New port 31337 (tcp) on 45.33.32.156"
+            ],
+            "critical": [
+                "New port 22 (tcp) on 45.33.32.156",
+                "New port 80 (tcp) on 45.33.32.156"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-10-13T21:15:14.854359",
+        "target": "scanme.nmap.org",
+        "anomalies": {
+            "anomalies": [
+                "New port 22 (tcp) on 45.33.32.156",
+                "New port 80 (tcp) on 45.33.32.156",
+                "New port 135 (tcp) on 45.33.32.156",
+                "New port 139 (tcp) on 45.33.32.156",
+                "New port 445 (tcp) on 45.33.32.156",
+                "New port 9929 (tcp) on 45.33.32.156",
+                "New port 31337 (tcp) on 45.33.32.156"
+            ],
+            "critical": [
+                "New port 22 (tcp) on 45.33.32.156",
+                "New port 80 (tcp) on 45.33.32.156"
+            ]
+        }
+    }
+]
