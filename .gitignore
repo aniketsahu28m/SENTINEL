@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local environment files
+.env
+backend/.env
+*.local
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# Backend generated artifacts
+backend/__pycache__/
+backend/data/encrypted_reports/
+backend/data/keys.json
+backend/data/users.json
+backend/data/scans/*.json
+backend/data/anomalies/*.json
+backend/security_alerts.log
+sentinel/
+
+# Local document and archive exports
+SENTINEL-*.docx
+SENTINEL*.pdf
+frontend.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
