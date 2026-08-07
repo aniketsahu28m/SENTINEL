@@ -1,0 +1,77 @@
+# Test IPs for Sentinel System
+
+## Benign IPs (Known Safe)
+
+1. Internal Network IPs:
+- 127.0.0.1 (localhost - Always safe for testing)
+- 192.168.1.1 (Common router IP)
+- 10.0.0.1 (Common internal network)
+- 172.16.0.1 (Common private network)
+
+2. Known Public Services:
+- 8.8.8.8 (Google DNS - Known safe)
+- 1.1.1.1 (Cloudflare DNS - Known safe)
+- 208.67.222.222 (OpenDNS - Known safe)
+
+3. Major Cloud Providers (Safe):
+- 13.107.42.14 (Microsoft Azure)
+- 16.12.42.68 (Amazon AWS)
+- 34.102.136.180 (Google Cloud)
+
+## Anomalous IPs (For Testing Alerts)
+
+1. Known Malicious (Test with caution):
+- 45.112.146.37 (Known malware distribution)
+- 185.143.223.12 (Known botnet command)
+- 91.234.99.87 (Known phishing host)
+
+2. Suspicious Behavior Pattern:
+- 103.91.206.72 (Unusual port scanning)
+- 167.248.133.40 (Excessive connection attempts)
+- 89.248.167.131 (Known for brute force attempts)
+
+3. Geographic Anomalies (If unexpected for your network):
+- 27.155.92.154 (China)
+- 194.26.29.144 (Russia)
+- 41.71.120.42 (Nigeria)
+
+## Test Scenarios
+
+1. Benign to Anomalous Transition:
+- Start with 192.168.1.100 (internal)
+- Switch to 45.112.146.37 (suspicious)
+Expected: Should trigger new host detection and critical port alerts
+
+2. Service Change Detection:
+- Use 10.0.0.50 with standard HTTP (80)
+- Change to unusual high ports (8080, 9000)
+Expected: Should trigger service change alert
+
+3. State Change Testing:
+- Monitor 172.16.0.100 (initially all ports closed)
+- Open ports 22, 80, 443
+Expected: Should trigger state change detection
+
+## Testing Instructions
+
+1. Basic Test:
+```python
+test_targets = ["127.0.0.1", "8.8.8.8", "45.112.146.37"]
+scan_args = "-sV -O -Pn"
+```
+
+2. Anomaly Detection Test:
+```python
+baseline_ip = "192.168.1.100"
+anomaly_ip = "45.112.146.37"
+critical_ports = [22, 80, 443, 3389]
+```
+
+3. Service Change Test:
+```python
+target_ip = "10.0.0.50"
+initial_ports = "80,443"
+changed_ports = "8080,9000"
+```
+
+Note: Always test in a controlled environment first. Some IPs might be blocked or unreachable depending on your network configuration.

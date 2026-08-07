@@ -96,7 +96,14 @@ npm run dev
 
 ### macOS / Linux
 
-Start the services manually in two terminals:
+For the quickest local startup, run the launcher script from the repository root:
+
+```bash
+chmod +x startup.sh
+./startup.sh
+```
+
+If you prefer to start things manually, use two terminals:
 
 ```bash
 cd backend

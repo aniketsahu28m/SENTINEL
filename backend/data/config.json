@@ -1,0 +1,7 @@
+{
+  "targets": ["scanme.nmap.org"],
+  "scan_args": "-sV -O -Pn",
+  "scan_interval_minutes": 60,
+  "recipients": ["sahuaniket2128@gmail.com"],
+  "critical_ports": [22, 80, 443, 3389]
+}
